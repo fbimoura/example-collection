@@ -1,0 +1,9 @@
+---
+- name: Teste
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - debug:
+        msg: Tarefa da collection
